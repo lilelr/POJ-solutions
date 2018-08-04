@@ -47,7 +47,7 @@ bool bfs()///判断二分图
     }
     return true;
 }
-bool FIND(int u)///匈牙利算法
+bool FIND(int u)///匈牙利算法,找交替边，找到，返回true
 {
     for(int i=0;i<par[u].size();i++)
     {
