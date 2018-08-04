@@ -1,0 +1,3 @@
+set(POJproblem_2955_C_Brackets_SRCS POJproblem_2955_C_Brackets.cpp)
+add_executable(POJproblem_2955_C_Brackets ${POJproblem_2955_C_Brackets_SRCS})
+

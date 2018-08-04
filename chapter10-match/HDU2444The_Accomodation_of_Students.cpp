@@ -9,7 +9,7 @@
 #include <map>
 #include <algorithm>
 #include <cstring>
-using namespace std;using namespace std;
+using namespace std;
 #define M(a,b) memset(a,b,sizeof(a))
 const int MAXN = 210;
 int link[MAXN]; // 记录匹配的边

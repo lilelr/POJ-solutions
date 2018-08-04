@@ -1,4 +1,3 @@
-
 #include <string>
 #include <iostream>
 #include <vector>
@@ -6,7 +5,10 @@
 #include <queue>
 #include <map>
 #include <algorithm>
+#include <stack>
+#include <cstring>
 using namespace std;
+#define M(a,b) memset(a,b,sizeof(a))
 
 class Solution {
 public:
