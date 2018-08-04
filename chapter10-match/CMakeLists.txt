@@ -1,0 +1,5 @@
+set(problem_1045_fire_net_SRCS problem_1045_fire_net.cpp)
+add_executable(problem_1045_fire_net ${problem_1045_fire_net_SRCS})
+
+set(HDU2444The_Accomodation_of_Students_SRCS HDU2444The_Accomodation_of_Students.cpp)
+add_executable(HDU2444The_Accomodation_of_Students ${HDU2444The_Accomodation_of_Students_SRCS})
