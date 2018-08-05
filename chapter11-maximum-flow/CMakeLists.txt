@@ -1,0 +1,4 @@
+set(POJproblem3436_ACM_Computer_factory_SRCS POJproblem3436_ACM_Computer_factory.cpp)
+add_executable(POJproblem3436_ACM_Computer_factory ${POJproblem3436_ACM_Computer_factory_SRCS})
+
+
