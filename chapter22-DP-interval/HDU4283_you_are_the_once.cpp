@@ -58,7 +58,7 @@ int main() {
         }
 
 
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) { // i 表示区间长度
             for (int left = 1; left <= n - i; left++) {
                 int right = left + i;
                 dp[left][right] = min(dp[left][right], dp[left][right - 1] + i * nums[right]);

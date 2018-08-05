@@ -3,3 +3,7 @@ add_executable(problem_1045_fire_net ${problem_1045_fire_net_SRCS})
 
 set(HDU2444The_Accomodation_of_Students_SRCS HDU2444The_Accomodation_of_Students.cpp)
 add_executable(HDU2444The_Accomodation_of_Students ${HDU2444The_Accomodation_of_Students_SRCS})
+
+
+set(HDU1083Courses_SRCS HDU1083Courses.cpp)
+add_executable(HDU1083Courses ${HDU1083Courses_SRCS})
