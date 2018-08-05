@@ -4,3 +4,7 @@ add_executable(POJproblem_2955_C_Brackets ${POJproblem_2955_C_Brackets_SRCS})
 set(POJProblem1651-Multiplication-Puzzle_SRCS POJProblem1651-Multiplication-Puzzle.cpp)
 add_executable(POJProblem1651-Multiplication-Puzzle ${POJProblem1651-Multiplication-Puzzle_SRCS})
 
+
+
+set(HDU4283_you_are_the_once_SRCS HDU4283_you_are_the_once.cpp)
+add_executable(HDU4283_you_are_the_once ${HDU4283_you_are_the_once_SRCS})
