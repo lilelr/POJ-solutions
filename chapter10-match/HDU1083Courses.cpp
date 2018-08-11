@@ -1,5 +1,5 @@
 // http://acm.hdu.edu.cn/showproblem.php?pid=1083
-// 二分图匹配】【基于dfs匈牙利算法】 套 二分图模板
+// 二分图匹配 完美匹配判断【基于dfs匈牙利算法】 套 二分图模板
 #include <string>
 #include <iostream>
 #include <vector>

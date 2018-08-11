@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define M(a, b) memset(a,b,sizeof(a))
+
+// memset(a,0x3f,sizeof(a))
+//memset(a,0xcf,sizeof(a))
+typedef long long LL;
+
+const int maxn = 0x3f3f3f3f;
+
+
+
+
+int main() {
+
+    return 0;
+}
