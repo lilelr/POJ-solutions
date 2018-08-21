@@ -70,11 +70,12 @@ void Built(int l, int r, int root)
 
 void Update(int root)
 {
-    //更新子树
+    //更新子树，只更新 当前根节点和它的左右子节点
     if (tree[root].add)
     {
-        tree[L(root)].add += tree[root].add;//
+        tree[L(root)].add += tree[root].add;// 向 左右子节点节点递送 add 值
         tree[R(root)].add += tree[root].add;//
+        // 左节点更新 val 值，为左节点区间范围长度 * tree[root].add 值
         tree[L(root)].val += (tree[L(root)].right - tree[L(root)].left + 1)*tree[root].add;
         tree[R(root)].val += (tree[R(root)].right - tree[R(root)].left + 1)*tree[root].add;
         tree[root].add = 0;
@@ -92,6 +93,7 @@ void Update(int root)
  */
 void Add(int l, int r, LL v, int root)
 {
+    // 如果当前根节点的 [left, right]满足 l<= left <right <= r 则无需继续递送给区间下的子节点，延迟更新 add
     if (l <= tree[root].left && r >= tree[root].right)
     {
         tree[root].add += v;
@@ -102,7 +104,7 @@ void Add(int l, int r, LL v, int root)
     {
         //分别在左右子树上增加
         Update(root);
-        if (tree[root].left == tree[root].right)
+        if (tree[root].left == tree[root].right) // 到达叶子节点
             return;
         int mid = MID(tree[root].left, tree[root].right);
         if (l > mid)
