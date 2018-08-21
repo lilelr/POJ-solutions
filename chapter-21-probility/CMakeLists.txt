@@ -3,3 +3,9 @@
 
 set(a_dangerous_maze_SRCS a_dangerous_maze.cpp)
 add_executable(LgihtOJ1027_a_dangerous_maze ${a_dangerous_maze_SRCS})
+
+set(LightOJ1030_discovering_gold_SRCS LightOJ1030_discovering_gold.cpp)
+add_executable(LightOJ1030_discovering_gold ${LightOJ1030_discovering_gold_SRCS})
+
+set(Lightoj1038_race_to_1_again_SRCS Lightoj1038_race_to_1_again.cpp)
+add_executable(Lightoj1038_race_to_1_again ${Lightoj1038_race_to_1_again_SRCS})
