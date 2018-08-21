@@ -9,3 +9,30 @@ memset函数的初始化只能对一维数组，对于每一行，是连续分�
 int GCD(int a, int b) {
     return b == 0 ? a : GCD(b, a % b);
 }
+
+
+3  求一个数的因数
+  double ans = 0;
+        for (int i = 2; i <= n; i++) {
+            int cnt = 2;// 因数个数，包括1和本身 dp[i] = Ei
+            double temp_sum = 0; // E10 = 1/4 * [ (1+E1) + (1+E2) + (1+E5) + (1+E10) ]
+            int sqrt_int = (int) (sqrt(i));
+            for (int j = 2; j <= sqrt_int; j++) { // 求因数
+                if (i % j == 0) {
+                    cnt++;
+                    temp_sum += dp[j];
+                    int quotient = i / j;
+                    if (j != quotient) { // 如 25 = 5 * 5 ,5 不能再加一次
+                        cnt++;
+                        temp_sum += dp[quotient];
+                    }
+                }
+            }
+            printf("%d\n", cnt);
+            dp[i] = (cnt + (double) temp_sum) / (cnt - 1);
+            printf("dp[%d]: %f\n", i, dp[i]);
+        }
+        ans = dp[n];
+
+4  分子分母为整数时，要得出double ，注意 分母要加double 转换
+            diff_day_pro = diff_day_pro * (1 - n / (double) days);

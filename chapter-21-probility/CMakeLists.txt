@@ -9,3 +9,9 @@ add_executable(LightOJ1030_discovering_gold ${LightOJ1030_discovering_gold_SRCS}
 
 set(Lightoj1038_race_to_1_again_SRCS Lightoj1038_race_to_1_again.cpp)
 add_executable(Lightoj1038_race_to_1_again ${Lightoj1038_race_to_1_again_SRCS})
+
+set(LightOJ1079_just_another_robbery_SRCS LightOJ1079_just_another_robbery.cpp)
+add_executable(LightOJ1079_just_another_robbery ${LightOJ1079_just_another_robbery_SRCS})
+
+set(LightOJ1104_Birthday_Paradox_SRCS LightOJ1104_Birthday_Paradox.cpp)
+add_executable(LightOJ1104_Birthday_Paradox ${LightOJ1104_Birthday_Paradox_SRCS})
