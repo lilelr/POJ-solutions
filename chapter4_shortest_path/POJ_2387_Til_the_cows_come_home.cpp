@@ -1,4 +1,4 @@
-//http://poj.org/problem?id=2387
+//http://poj.org/problem?id=2387  Dijkstra
 #include <string>
 #include <iostream>
 #include <vector>
