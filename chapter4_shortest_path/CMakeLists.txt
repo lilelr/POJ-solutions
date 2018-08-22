@@ -1,0 +1,4 @@
+
+
+set(POJ_2387_Til_the_cows_come_home_SRC POJ_2387_Til_the_cows_come_home.cpp)
+add_executable(POJ_2387_Til_the_cows_come_home ${POJ_2387_Til_the_cows_come_home_SRC})

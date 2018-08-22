@@ -1,0 +1,10 @@
+
+
+set(POJ_1251_A_jungle_roads_SRC POJ_1251_A_jungle_roads.cpp)
+add_executable(POJ_1251_A_jungle_roads_SRC ${POJ_1251_A_jungle_roads_SRC})
+
+set(POJ1287_Networking_SRC POJ1287_Networking.cpp)
+add_executable(POJ1287_Networking ${POJ1287_Networking_SRC})
+
+set(POJ2031_Building_a_Space_Station_SRC POJ2031_Building_a_Space_Station.cpp)
+add_executable(POJ2031_Building_a_Space_Station ${POJ2031_Building_a_Space_Station_SRC})

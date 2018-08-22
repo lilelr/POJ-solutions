@@ -36,3 +36,11 @@ int GCD(int a, int b) {
 
 4  分子分母为整数时，要得出double ，注意 分母要加double 转换
             diff_day_pro = diff_day_pro * (1 - n / (double) days);
+
+
+5  打印三位小数
+printf("%.3f\n",ans);
+
+6  double tmp;  //求两个三维坐标点之间的距离
+ tmp = sqrt(  (v1.x-v2.x)*(v1.x-v2.x) + (v1.y-v2.y)*(v1.y-v2.y) +
+                   (v1.z-v2.z)*(v1.z-v2.z) )
