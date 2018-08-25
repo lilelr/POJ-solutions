@@ -1,0 +1,13 @@
+
+
+
+set(HDU_1024_Max_sum_plus_plus_SRC HDU_1024_Max_sum_plus_plus.cpp)
+add_executable(HDU_1024_Max_sum_plus_plus ${HDU_1024_Max_sum_plus_plus_SRC})
+
+set(HDU_1029_Ignatius_and_the_princess_IV_SRC HDU_1029_Ignatius_and_the_princess_IV.cpp)
+add_executable(HDU_1029_Ignatius_and_the_princess_IV ${HDU_1029_Ignatius_and_the_princess_IV_SRC})
+
+
+
+set(HDU1069_Monkey_and_banana_SRC HDU1069_Monkey_and_banana.cpp)
+add_executable(HDU1069_Monkey_and_banana ${HDU1069_Monkey_and_banana_SRC})
