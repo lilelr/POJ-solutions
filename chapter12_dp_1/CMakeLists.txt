@@ -20,3 +20,10 @@ add_executable(HDU_1087_super_jumping ${HDU_1087_super_jumping_SRC})
 
 set(HDU_1114_piggy_bank_SRC HDU_1114_piggy_bank.cpp)
 add_executable(HDU_1114_piggy_bank ${HDU_1114_piggy_bank_SRC})
+
+set(HDU_1176_free_cookie_SRC HDU_1176_free_cookie.cpp)
+add_executable(HDU_1176_free_cookie ${HDU_1176_free_cookie_SRC})
+
+
+set(HDU_1260_Tickets_SRC HDU_1260_Tickets.cpp)
+add_executable(HDU_1260_Tickets ${HDU_1260_Tickets_SRC})
