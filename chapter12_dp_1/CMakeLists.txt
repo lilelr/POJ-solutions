@@ -11,3 +11,12 @@ add_executable(HDU_1029_Ignatius_and_the_princess_IV ${HDU_1029_Ignatius_and_the
 
 set(HDU1069_Monkey_and_banana_SRC HDU1069_Monkey_and_banana.cpp)
 add_executable(HDU1069_Monkey_and_banana ${HDU1069_Monkey_and_banana_SRC})
+
+set(HDU_1074_Doing_Homework_SRC HDU_1074_Doing_Homework.cpp)
+add_executable(HDU_1074_Doing_Homework ${HDU_1074_Doing_Homework_SRC})
+
+set(HDU_1087_super_jumping_SRC HDU_1087_super_jumping.cpp)
+add_executable(HDU_1087_super_jumping ${HDU_1087_super_jumping_SRC})
+
+set(HDU_1114_piggy_bank_SRC HDU_1114_piggy_bank.cpp)
+add_executable(HDU_1114_piggy_bank ${HDU_1114_piggy_bank_SRC})

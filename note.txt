@@ -44,3 +44,43 @@ printf("%.3f\n",ans);
 6  double tmp;  //求两个三维坐标点之间的距离
  tmp = sqrt(  (v1.x-v2.x)*(v1.x-v2.x) + (v1.y-v2.y)*(v1.y-v2.y) +
                    (v1.z-v2.z)*(v1.z-v2.z) )
+
+
+7  set 红黑树，默认升序
+  set<pair<int,string>> se;
+    se.insert({1,"abc"});
+    se.insert({2,"abc"});
+    se.insert({2,"aba"});
+    auto it = se.begin();
+    for(;it!=se.end();it++){
+        cout<<it->first << " "<<it->second<<endl;
+    }
+
+8 遍历回溯
+
+ for(set<pair<int,string>>::iterator it = com_str.begin();it!=com_str.end();it++){
+                cur_com = it->first;
+                cur_str = it->second;
+                if(cur_com > min_com) break;
+                for(int i=0;i<P;i++){ // 遍历 P 个位，确保每次只改变一个位（利用回溯，代码 98->105 行）
+                    if(cur_str[i] == desire[i]){
+                        int temp_com = cur_com;
+                        if(cur_str[i] == '0'){ // 从 0 变成 1
+                            temp_com -= one[i]; // 减去原来的抱怨值
+                            temp_com += zero[i]; // 增加新的抱怨值
+                        }else{ // 从1 变成 0
+                            temp_com -= zero[i]; // 减去原来的抱怨值
+                            temp_com += one[i]; // 增加新的抱怨值
+                        }
+
+                        if(min_com > temp_com){
+                            cur_str[i] = change(cur_str[i]); //0 ，1 转换 如 1111 变成 0111
+                            if(com_str.count(make_pair(temp_com,cur_str)) == 0){
+                                min_com = temp_com; // 找出只改变一位后，抱怨值最小的 str
+                                pick_str = cur_str;
+                            }
+                            cur_str[i] = change(cur_str[i]); //0 ，1 还原，回溯 0111 重新变成 1111
+                        }
+                    }
+                }
+            }

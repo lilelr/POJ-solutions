@@ -1,3 +1,4 @@
+// https://vjudge.net/contest/68966#problem/C
 #include <string>
 #include <iostream>
 #include <vector>
