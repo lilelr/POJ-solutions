@@ -27,3 +27,19 @@ add_executable(HDU_1176_free_cookie ${HDU_1176_free_cookie_SRC})
 
 set(HDU_1260_Tickets_SRC HDU_1260_Tickets.cpp)
 add_executable(HDU_1260_Tickets ${HDU_1260_Tickets_SRC})
+
+set(HDU_1257_interception_system_SRC HDU_1257_interception_system.cpp)
+add_executable(HDU_1257_interception_system ${HDU_1257_interception_system_SRC})
+
+set(HDU_1160_FatMouse_Speed_SRC HDU_1160_FatMouse_Speed.cpp)
+add_executable(HDU_1160_FatMouse_Speed ${HDU_1160_FatMouse_Speed_SRC})
+
+set(POJ_1458_Common_subsequence_SRC POJ_1458_Common_subsequence.cpp)
+add_executable(POJ_1458_Common_subsequence ${POJ_1458_Common_subsequence_SRC})
+
+set(POJ_1661_help_jimmy_SRC POJ_1661_help_jimmy.cpp)
+add_executable(POJ_1661_help_jimmy ${POJ_1661_help_jimmy_SRC})
+
+
+set(POJ_3186_treats_for_the_cows_SRC POJ_3186_treats_for_the_cows.cpp)
+add_executable(POJ_3186_treats_for_the_cows ${POJ_3186_treats_for_the_cows_SRC})

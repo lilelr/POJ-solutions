@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 //https://vjudge.net/contest/68966#problem/H
 // 单状态跳转dp, 一次跳一步，也可以一次跳两步 dp[i] = min(dp[i - 1] + single[i], dp[i - 2] + dou[i - 1]);
