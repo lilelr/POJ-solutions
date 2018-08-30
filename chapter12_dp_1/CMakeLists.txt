@@ -43,3 +43,6 @@ add_executable(POJ_1661_help_jimmy ${POJ_1661_help_jimmy_SRC})
 
 set(POJ_3186_treats_for_the_cows_SRC POJ_3186_treats_for_the_cows.cpp)
 add_executable(POJ_3186_treats_for_the_cows ${POJ_3186_treats_for_the_cows_SRC})
+
+set(HDU_2859_phalanx_SRC HDU_2859_phalanx.cpp)
+add_executable(HDU_2859_phalanx ${HDU_2859_phalanx_SRC})
