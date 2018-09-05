@@ -9,3 +9,9 @@ add_executable(bellman_ford_algorithm ${bellman_ford_algorithm_SRC})
 
 
 
+set(POJ1797_Heavy_transportation_SRC POJ1797_Heavy_transportation.cpp)
+add_executable(POJ1797_Heavy_transportation ${POJ1797_Heavy_transportation_SRC})
+
+
+set(spfa_SRC spfa.cpp)
+add_executable(spfa ${spfa_SRC})

@@ -34,7 +34,7 @@ struct Edge { // 边
 
 vector<Edge> E[maxn]; //只需初始化边即可
 bool vis[maxn];
-int dist[maxn];
+int dist[maxn]; // 从每个顶点出发，到达终点n最短距离, 顶点编号，从1开始
 
 /**
  * 使用优先队列优化 复杂度O(ElogE)

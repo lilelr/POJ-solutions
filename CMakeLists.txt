@@ -13,7 +13,7 @@ add_subdirectory(chapter6-minimumm-weight-tree)
 add_subdirectory(chapter4_shortest_path)
 add_subdirectory(chapter9-critical-links)
 add_subdirectory(chapter12_dp_1)
-
+add_subdirectory(chapter1-simple-search)
 
 
 set(SOURCE_FILES post_office_1160.cpp)

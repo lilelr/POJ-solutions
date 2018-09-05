@@ -46,3 +46,6 @@ add_executable(POJ_3186_treats_for_the_cows ${POJ_3186_treats_for_the_cows_SRC})
 
 set(HDU_2859_phalanx_SRC HDU_2859_phalanx.cpp)
 add_executable(HDU_2859_phalanx ${HDU_2859_phalanx_SRC})
+
+set(POJ3666_Making_the_Grade_DP_SRC POJ3666_Making_the_Grade_DP.cpp)
+add_executable(POJ3666_Making_the_Grade_DP ${POJ3666_Making_the_Grade_DP_SRC})
